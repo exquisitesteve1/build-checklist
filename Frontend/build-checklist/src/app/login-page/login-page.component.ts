@@ -25,7 +25,7 @@ export class LoginPageComponent implements OnInit {
     console.log('Valid?', form.valid); // true or false
     console.log('Name', form.value.name);
     console.log('Email', form.value.email);
-    console.log('Password', form.value.message);
+    console.log('Password', form.value.password);
   }
 
 }
