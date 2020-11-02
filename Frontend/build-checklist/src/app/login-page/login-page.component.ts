@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-login-page',
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPageComponent implements OnInit {
 
+  myForm: FormGroup;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.myForm = new FormGroup({
+      name: new FormControl(''),
+      email: new FormControl(''),
+      password: new FormControl('')
+    });
+  }
+
+  onSubmit(form: FormGroup) {
+    console.log('Valid?', form.valid); // true or false
+    console.log('Name', form.value.name);
+    console.log('Email', form.value.email);
+    console.log('Password', form.value.message);
   }
 
 }

@@ -1,1 +1,8 @@
 <p>login-page works!</p>
+<form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+    <input formControlName="name" placeholder="Your name">
+    <input formControlName="email" placeholder="Your email">
+    <input formControlName="password" placeholder="Password">
+  
+    <button type="submit">Send</button>
+  </form>
