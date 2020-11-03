@@ -52,6 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuildChecklistContext.cs" />
+    <Compile Include="DTO\ChecklistDTO.cs" />
+    <Compile Include="DTO\ChecklistManagementDTO.cs" />
+    <Compile Include="DTO\ConversoinsListDTO.cs" />
+    <Compile Include="DTO\UsersListDTO.cs" />
     <Compile Include="Migrations\202011031239178_buildchecklist.cs" />
     <Compile Include="Migrations\202011031239178_buildchecklist.designer.cs">
       <DependentUpon>202011031239178_buildchecklist.cs</DependentUpon>
@@ -72,9 +76,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DTO\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202011031239178_buildchecklist.resx">
       <DependentUpon>202011031239178_buildchecklist.cs</DependentUpon>
