@@ -9,7 +9,7 @@ namespace DataAccessLayer.DTO
     public class ChecklistDTO
     {
         public int EntryId { get; set; }
-        public int ConversionId { get; set }
+        public int ConversionId { get; set; }
         public string TaskName { get; set; }
         public string TaskDescription { get; set; }
         public bool CompletedStatus { get; set; }
