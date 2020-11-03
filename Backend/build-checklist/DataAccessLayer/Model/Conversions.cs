@@ -9,22 +9,19 @@ namespace DataAccessLayer.Model
 {
     public class Conversions
     {
+        [Key]
         public int ConversionId { get; set; }
         [Required]
         [MaxLength(255)]
         public string ConversionName { get; set; }
-        [Required]
-        [MaxLength(255)]
+        //[Required]
+        //[MaxLength(255)]
         public string ConversionDescription { get; set; }
         [Required]
-        [MaxLength(255)]
-        public string Member1 { get; set; }
-        [MaxLength(255)]
-        public string Member2 { get; set; }
-        [MaxLength(255)]
-        public string Member3 { get; set; }
-        [MaxLength(255)]
-        public string Member4 { get; set; }
+        public int IdMember1 { get; set; }
+        public int IdMember2 { get; set; }
+        public int IdMember3 { get; set; }
+        public int IdMember4 { get; set; }
         public bool CompletedStatus { get; set; }
         public string Type { get; set; }
     }

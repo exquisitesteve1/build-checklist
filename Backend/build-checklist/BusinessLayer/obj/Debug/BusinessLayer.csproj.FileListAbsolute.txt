@@ -1,0 +1,14 @@
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\obj\Debug\BusinessLayer.pdb

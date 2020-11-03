@@ -9,6 +9,7 @@ namespace DataAccessLayer.Model
 {
     public class Live
     {
+        [Key]
         public int EntryId { get; set; }
         [Required]
         public int ConversionId { get; set; }
@@ -19,7 +20,6 @@ namespace DataAccessLayer.Model
         public string TaskDescription { get; set; }
         [Required]
         public bool CompletedStatus { get; set; }
-        [MaxLength(255)]
         public int StepNo { get; set; }
     }
 }
