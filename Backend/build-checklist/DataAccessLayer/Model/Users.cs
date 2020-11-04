@@ -23,6 +23,6 @@ namespace DataAccessLayer.Model
         public bool Lead { get; set; }
         public bool Admin { get; set; }
         [MaxLength(255)]
-        public string role { get; set; }
+        public string Role { get; set; }
     }
 }

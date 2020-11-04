@@ -1,0 +1,10 @@
+<!-- <p>navbar works!</p> -->
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+    <li ngbNavItem>
+        <a ngbNavLink [routerLink]="['/UserAdministration']">User Administration</a>
+    </li>
+</ul>
+
+<div class='container-fluid'>
+    <router-outlet></router-outlet>
+</div>
