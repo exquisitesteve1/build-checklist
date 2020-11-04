@@ -34,6 +34,7 @@ namespace BusinessLayer.Models
                     UserId = row.UserId,
                     Name = row.Name,
                     Email = row.Email,
+                    Password = row.Password,
                     Admin = row.Admin,
                     Lead = row.Lead,
                     Role = row.Role

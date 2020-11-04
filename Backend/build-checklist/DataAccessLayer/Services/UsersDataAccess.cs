@@ -19,6 +19,7 @@ namespace DataAccessLayer.Services
                             UserId = c.UserId,
                             Name = c.Name,
                             Email = c.Email,
+                            Password = c.Password,
                             Admin = c.Admin,
                             Lead = c.Lead,
                             Role = c.Role

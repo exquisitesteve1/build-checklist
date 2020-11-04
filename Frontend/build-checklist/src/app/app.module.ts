@@ -12,6 +12,7 @@ import { NavbarComponent } from './login-page/welcome/navbar/navbar.component';
 import { UserAdministrationComponent } from './login-page/welcome/navbar/user-administration/user-administration.component';
 import { BuildChecklistManagementComponent } from './login-page/welcome/navbar/build-checklist-management/build-checklist-management.component';
 import { DashboardComponent } from './login-page/welcome/navbar/dashboard/dashboard.component';
+// import { ServicesComponent } from './login-page/welcome/services/services.component';
 
 
 @NgModule({
@@ -22,15 +23,17 @@ import { DashboardComponent } from './login-page/welcome/navbar/dashboard/dashbo
     NavbarComponent,
     UserAdministrationComponent,
     BuildChecklistManagementComponent,
-    DashboardComponent,
-    HttpClientModule,
-    FormsModule
+    DashboardComponent
+    // HttpClientModule,
+    // FormsModule
+    // ServicesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,33 @@
-<p>user-administration works!</p>
+<!-- <p>user-administration works!</p> -->
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>User Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>password</th>
+                <th>Lead?</th>
+                <th>Admin?</th>
+                <th>Role</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let User of tempUser'>            /////
+                <td>{{User.UserId}}</td>
+                <td>{{User.Name}}</td>
+                <td>{{User.Email}}</td>
+                <td>{{User.password}}</td>
+                <td>
+                    <!-- <button class='btn btn-primary' (click)='onEditClick(owner)'>Edit</button> -->
+                </td>
+                <!-- <td><button class='btn btn-danger' (click)='onDeleteClick(owner)'>Delete</button></td> -->
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <!-- <button class='btn btn-success' (click)='onAddClick()'>Add new owner</button> -->
+</div>
