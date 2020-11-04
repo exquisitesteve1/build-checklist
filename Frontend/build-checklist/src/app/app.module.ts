@@ -9,6 +9,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { WelcomeComponent } from './login-page/welcome/welcome.component';
 import { NavbarComponent } from './login-page/welcome/navbar/navbar.component';
 import { UserAdministrationComponent } from './login-page/welcome/navbar/user-administration/user-administration.component';
+import { BuildChecklistManagementComponent } from './login-page/welcome/navbar/build-checklist-management/build-checklist-management.component';
+import { DashboardComponent } from './login-page/welcome/navbar/dashboard/dashboard.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { UserAdministrationComponent } from './login-page/welcome/navbar/user-ad
     LoginPageComponent,
     WelcomeComponent,
     NavbarComponent,
-    UserAdministrationComponent
+    UserAdministrationComponent,
+    BuildChecklistManagementComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
