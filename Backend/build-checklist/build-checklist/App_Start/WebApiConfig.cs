@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using Newtonsoft.Json.Serialization;
+using System.Web.Http.Cors;
+
 
 namespace build_checklist
 {
@@ -19,6 +22,10 @@ namespace build_checklist
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver();
+            config.Formatters.JsonFormatter.UseDataContractJsonSerializer = false;
+
+            config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
         }
     }
 }

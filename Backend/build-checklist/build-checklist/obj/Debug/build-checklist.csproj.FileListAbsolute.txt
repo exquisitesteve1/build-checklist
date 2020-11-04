@@ -64,3 +64,15 @@ C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-ch
 C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\obj\Debug\build-checklist.csproj.CopyComplete
 C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\obj\Debug\build-checklist.dll
 C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\obj\Debug\build-checklist.pdb
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\System.Web.Cors.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\System.Web.Http.Cors.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\AutoMapper.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\DataAccessLayer.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\EntityFramework.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\EntityFramework.SqlServer.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\System.Web.Http.Cors.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\AutoMapper.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\DataAccessLayer.pdb
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\DataAccessLayer.dll.config
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\EntityFramework.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\build-checklist\bin\EntityFramework.SqlServer.xml

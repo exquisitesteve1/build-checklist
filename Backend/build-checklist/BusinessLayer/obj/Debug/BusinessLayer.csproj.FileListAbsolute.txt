@@ -12,3 +12,14 @@ C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-ch
 C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\AutoMapper.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\Newtonsoft.Json.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\System.Net.Http.Formatting.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\System.Web.Cors.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\System.Web.Http.Cors.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\System.Web.Http.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\AutoMapper.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\Newtonsoft.Json.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\System.Net.Http.Formatting.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\System.Web.Http.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\BusinessLayer\bin\Debug\System.Web.Http.Cors.xml

@@ -13,3 +13,12 @@ C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-ch
 C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.buildchecklist.resources
 C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
 C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.v2.resources
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\bin\Debug\Newtonsoft.Json.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\bin\Debug\System.Net.Http.Formatting.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\bin\Debug\System.Web.Cors.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\bin\Debug\System.Web.Http.Cors.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\bin\Debug\System.Web.Http.dll
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\bin\Debug\Newtonsoft.Json.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\bin\Debug\System.Net.Http.Formatting.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\bin\Debug\System.Web.Http.xml
+C:\ZZ mine\Github\Build-checklist-final-project\build-checklist\Backend\build-checklist\DataAccessLayer\bin\Debug\System.Web.Http.Cors.xml
