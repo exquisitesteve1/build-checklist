@@ -15,11 +15,14 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor='let User of tempUser'>            /////
-                <td>{{User.UserId}}</td>
-                <td>{{User.Name}}</td>
-                <td>{{User.Email}}</td>
+            <tr *ngFor='let User of tempUser'>            
+                <td>{{User.userId}}</td>
+                <td>{{User.name}}</td>
+                <td>{{User.email}}</td>
                 <td>{{User.password}}</td>
+                <td>{{User.lead}}</td>
+                <td>{{User.admin}}</td>
+                <td>{{User.role}}</td>
                 <td>
                     <!-- <button class='btn btn-primary' (click)='onEditClick(owner)'>Edit</button> -->
                 </td>
