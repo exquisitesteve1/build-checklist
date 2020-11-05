@@ -18,4 +18,8 @@ export class UserService {
     return this.httpClient.get<UserView[]>(this.baseUrl + '/getallusers');
   }
 
+  updateUserInDB(user: UserView): Observable<UserView>{
+    return this.httpClient.post<UserView>(this.baseUrl + '/edituser/' + user.UserId, user);
+  }
+
 }

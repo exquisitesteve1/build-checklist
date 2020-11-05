@@ -1,0 +1,89 @@
+<div class="modal-header">
+    <h4 class="modal-title">Edit User</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+</div>
+<div class="modal-body">
+    <form [formGroup]="userForm">
+
+        <!-- originally there was no id field also type is set to number -->
+        <div class="form-group">
+            <label for="UserId">UserId*: </label><br/>
+            <input id="UserId" type="number" class="form-control" placeholder={{user.UserId}} formControlName="UserId" /><br/>      
+            <small *ngIf="userForm.controls.UserId.errors?.required && userForm.controls.UserId.touched" style="color:red">*UserId is required</small>
+            <small style="color:red">(Do not change Id here)</small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="Name">Name*: </label><br/>
+            <!-- name to small letter                               ////////////////-->
+            <input id="Name" type="text" class="form-control" placeholder={{user.Name}} formControlName="Name" /><br/>      
+            <small *ngIf="userForm.controls.Name.errors?.required && userForm.controls.Name.touched" style="color:red">*Name is required</small>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email*: </label><br/>
+            <input id="Email" type="text" class="form-control" placeholder={{user.Email}} formControlName="Email" /><br/>
+            <small *ngIf="userForm.controls.Email.errors?.required && userForm.controls.Email.touched" style="color:red">*Email is required</small>
+        </div>
+        <div class="form-group">
+            <label for="Password">Password*: </label><br/>
+            <input id="Password" type="text" class="form-control" placeholder={{user.Password}} formControlName="Password" /><br/>
+            <small *ngIf="userForm.controls.Password.errors?.required && userForm.controls.Password.touched" style="color:red">*Password is required</small>
+        </div>
+
+
+<!-- fix rest & boolean -->
+
+        <!-- <div class="form-group">
+
+            
+            <label for="Lead">Lead*: </label><br/>
+            &nbsp;&nbsp;
+            <input type="radio" [value]=true formControlName="Lead" >true
+            <input type="radio" [value]=false formControlName="Lead">false
+
+
+            <label for="Lead">Lead:</label>
+            <div>
+              <input id="Lead" type="radio" [value]="true" name="Lead" formControlName="Lead">
+              <label for="Lead">true</label>
+           </div>
+           <div>
+              <input id="Lead" type="radio" [value]="false" name="Lead" formControlName="Lead">
+              <label for="Lead">false</label>
+           </div>
+            <div *ngIf="f.Lead.touched && f.Lead.invalid" class="alert alert-danger">
+                <div *ngIf="f.Lead.errors.required">Lead is required.</div>
+            </div>
+        
+        </div> -->
+
+
+        <!-- changed type from text to number -->
+        <div class="form-group">
+            <label for="Lead">Lead*: </label><br/>
+            <input id="Lead" type="number" class="form-control" placeholder={{user.Lead}} formControlName="Lead" /><br/>
+            <small *ngIf="userForm.controls.Lead.errors?.required && userForm.controls.Lead.touched" style="color:red">*Lead is required</small>
+        </div>
+
+        <div class="form-group">
+            <label for="Admin">Admin*: </label><br/>
+            <input id="Admin" type="number" class="form-control" placeholder={{user.Admin}} formControlName="Admin" /><br/>
+            <small *ngIf="userForm.controls.Admin.errors?.required && userForm.controls.Admin.touched" style="color:red">*Admin is required</small>
+        </div>
+
+        <div class="form-group">
+            <label for="Role">Role*: </label><br/>
+            <input id="Role" type="text" class="form-control" placeholder={{user.Role}} formControlName="Role" /><br/>
+            <small *ngIf="userForm.controls.Role.errors?.required && userForm.controls.Role.touched" style="color:red">*Role is required</small>
+        </div>
+        
+
+
+
+
+        <button (click)="onSubmit()" type="button" class="btn btn-primary">Submit</button>
+    </form>
+</div>

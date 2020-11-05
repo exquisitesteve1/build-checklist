@@ -19,5 +19,14 @@ namespace build_checklist.Controllers
             UserBusiness UserBusiness = new UserBusiness();
             return UserBusiness.GetAllUsers();
         }
+
+        [HttpPost]
+        [Route("edituser/{id}")]
+        public UserVM UpdateOwner(UserVM user, int id)
+        {
+            UserBusiness userBusiness = new UserBusiness();
+            user.UserId= id;
+            return userBusiness.UpdateUser(user);
+        }
     }
 }

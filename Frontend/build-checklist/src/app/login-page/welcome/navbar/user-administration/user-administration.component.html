@@ -23,14 +23,12 @@
                 <td>{{User.lead}}</td>
                 <td>{{User.admin}}</td>
                 <td>{{User.role}}</td>
-                <td>
-                    <!-- <button class='btn btn-primary' (click)='onEditClick(owner)'>Edit</button> -->
-                </td>
-                <!-- <td><button class='btn btn-danger' (click)='onDeleteClick(owner)'>Delete</button></td> -->
+                <td><button class='btn btn-primary' (click)='onEditClick(User)'>Edit</button></td>
+                <td><button class='btn btn-danger' (click)='onDeleteClick(User)'>Delete</button></td>
             </tr>
         </tbody>
     </table>
 </div>
 <div>
-    <!-- <button class='btn btn-success' (click)='onAddClick()'>Add new owner</button> -->
+    <button class='btn btn-success' (click)='onAddClick()'>Add new User</button>
 </div>

@@ -12,6 +12,7 @@ import { NavbarComponent } from './login-page/welcome/navbar/navbar.component';
 import { UserAdministrationComponent } from './login-page/welcome/navbar/user-administration/user-administration.component';
 import { BuildChecklistManagementComponent } from './login-page/welcome/navbar/build-checklist-management/build-checklist-management.component';
 import { DashboardComponent } from './login-page/welcome/navbar/dashboard/dashboard.component';
+import { UserEditorComponent } from './login-page/welcome/navbar/user-administration/user-editor/user-editor.component';
 // import { ServicesComponent } from './login-page/welcome/services/services.component';
 
 
@@ -23,7 +24,8 @@ import { DashboardComponent } from './login-page/welcome/navbar/dashboard/dashbo
     NavbarComponent,
     UserAdministrationComponent,
     BuildChecklistManagementComponent,
-    DashboardComponent
+    DashboardComponent,
+    UserEditorComponent
     // HttpClientModule,
     // FormsModule
     // ServicesComponent

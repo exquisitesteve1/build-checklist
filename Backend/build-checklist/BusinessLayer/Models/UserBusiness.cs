@@ -42,5 +42,18 @@ namespace BusinessLayer.Models
             }
             return outputList;
         }
+
+        public UserVM UpdateUser(UserVM user)
+        {
+            UsersDataAccess userDataAccess = new UsersDataAccess();
+
+            var mapperVD = new Mapper(configOVD);
+            UserDTO userDTO = mapperVD.Map<UserDTO>(user);
+
+            var inputUser = userDataAccess.UpdateUserInDB(userDTO);
+            var mapperDV = new Mapper(configODV);
+            UserVM userVM = mapperDV.Map<UserVM>(inputUser);
+            return userVM;
+        }
     }
 }

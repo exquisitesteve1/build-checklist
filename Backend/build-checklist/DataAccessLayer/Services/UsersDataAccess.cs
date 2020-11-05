@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.DTO;
+using DataAccessLayer.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,5 +27,23 @@ namespace DataAccessLayer.Services
                         };
             return query.ToList();
         }
+
+
+        public UserDTO UpdateUserInDB(UserDTO user)
+        {
+            BuildChecklistContext dbContext = new BuildChecklistContext();
+            Users users = dbContext.Users.Where(c => c.UserId == user.UserId).FirstOrDefault();
+            users.UserId = user.UserId;                 //I added later
+            users.Name = user.Name;
+            users.Email = user.Email;
+            users.Password = user.Password;
+            users.Admin = user.Admin;
+            users.Lead = user.Lead;
+            users.Role = user.Role;
+
+            dbContext.SaveChanges();
+            return user;
+        }
     }
+
 }
