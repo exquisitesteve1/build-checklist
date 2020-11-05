@@ -28,5 +28,16 @@ namespace build_checklist.Controllers
             user.UserId= id;
             return userBusiness.UpdateUser(user);
         }
+
+        [HttpPost]
+        [Route("adduser")]
+        public void AddUser(UserVM user)
+        {
+            UserBusiness userBusiness = new UserBusiness();
+            int UserId = userBusiness.CreateNewUser(user);            //YES originally present
+            //int UserId = user.UserId;                                  //I added
+            //userBusiness.CreateNewUser(user);                           //I added
+            //return id;                                        //originally commented
+        }
     }
 }

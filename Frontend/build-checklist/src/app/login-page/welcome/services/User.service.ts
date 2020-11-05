@@ -22,4 +22,8 @@ export class UserService {
     return this.httpClient.post<UserView>(this.baseUrl + '/edituser/' + user.UserId, user);
   }
 
+  addNewUserToDB(newUser: UserView): Observable<UserView>{
+    return this.httpClient.post<UserView>(this.baseUrl + '/adduser', newUser);
+  }
+
 }

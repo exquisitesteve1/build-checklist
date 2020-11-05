@@ -5,6 +5,7 @@ import { UserView } from '../../ViewModels/user-view-model';
 import { Observable } from 'rxjs';
 import { UserService } from '../../services/User.service';
 import { UserEditorComponent } from './user-editor/user-editor.component';
+import { UserAddComponent } from './user-add/user-add.component';
 @Component({
   selector: 'app-user-administration',
   templateUrl: './user-administration.component.html',
@@ -44,5 +45,20 @@ export class UserAdministrationComponent implements OnInit {
       this.refreshList();
     });
   }
+
+  
+  onAddClick(){
+    var ref = this.modalService.open(UserAddComponent);
+    ref.result.then((result) => this.onUserAdded(result)).catch(error => alert('Add operation cancelled by user. No new users were added.'));
+  }
+
+  onUserAdded(addedUser: UserView): void{
+    this.userService.addNewUserToDB(addedUser).subscribe((addedItem) => {
+      alert("New User Saved");
+      this.refreshList();
+    });
+  }
+
+  //add delete part
 
 }

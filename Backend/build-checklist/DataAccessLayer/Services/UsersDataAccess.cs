@@ -44,6 +44,23 @@ namespace DataAccessLayer.Services
             dbContext.SaveChanges();
             return user;
         }
+
+        public int AddUserToDB(UserDTO userDTO)
+        {
+            BuildChecklistContext dbContext = new BuildChecklistContext();
+            Users users = new Users();
+            users.UserId = userDTO.UserId;          //was not there
+            users.Name = userDTO.Name;
+            users.Email = userDTO.Email;
+            users.Password = userDTO.Password;
+            users.Admin = userDTO.Admin;
+            users.Lead = userDTO.Lead;
+            users.Role = userDTO.Role;
+
+            dbContext.SaveChanges();
+
+            return users.UserId;
+        }
     }
 
 }

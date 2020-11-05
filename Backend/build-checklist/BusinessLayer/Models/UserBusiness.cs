@@ -55,5 +55,24 @@ namespace BusinessLayer.Models
             UserVM userVM = mapperDV.Map<UserVM>(inputUser);
             return userVM;
         }
+
+        public int CreateNewUser(UserVM userVM)
+        {
+            UsersDataAccess usersDataAccess = new UsersDataAccess();
+            UserDTO userDTO = new UserDTO();
+
+            userDTO.UserId = userVM.UserId;             //originally this line is not there
+            userDTO.Name = userVM.Name;
+            userDTO.Email = userVM.Email;
+            userDTO.Password = userVM.Password;
+            userDTO.Admin = userVM.Admin;
+            userDTO.Lead = userVM.Lead;
+            userDTO.Role = userVM.Role;
+
+            int UserId = usersDataAccess.AddUserToDB(userDTO);          //YES originally present line
+            //usersDataAccess.AddUserToDB(userDTO);                       //I added
+            return UserId;                                            //YES originally present line
+            //return 1;                                                      //I added
+        }
     }
 }

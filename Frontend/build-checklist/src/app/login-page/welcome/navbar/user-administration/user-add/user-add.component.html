@@ -1,0 +1,58 @@
+<div class="modal-header">
+    <h4 class="modal-title">Add User</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+</div>
+<div class="modal-body">
+    <form [formGroup]="userForm">
+
+        <div class="form-group">
+            <label for="UserId">UserId*: </label><br/>
+            <input id="UserId" type="number" class="form-control" placeholder="Enter User ID" formControlName="UserId" /><br/>      
+            <small *ngIf="userForm.controls.UserId.errors?.required && userForm.controls.UserId.touched" style="color:red">*UserId is required</small>
+            <small style="color:red">(Do not change Id here)</small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="Name">Name*: </label><br/>
+            <input id="Name" type="text" class="form-control" placeholder="Enter Name" formControlName="Name" /><br/>      
+            <small *ngIf="userForm.controls.Name.errors?.required && userForm.controls.Name.touched" style="color:red">*Name is required</small>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email*: </label><br/>
+            <input id="Email" type="text" class="form-control" placeholder="Enter Email" formControlName="Email" /><br/>
+            <small *ngIf="userForm.controls.Email.errors?.required && userForm.controls.Email.touched" style="color:red">*Email is required</small>
+        </div>
+        <div class="form-group">
+            <label for="Password">Password*: </label><br/>
+            <input id="Password" type="text" class="form-control" placeholder="Enter Password" formControlName="Password" /><br/>
+            <small *ngIf="userForm.controls.Password.errors?.required && userForm.controls.Password.touched" style="color:red">*Password is required</small>
+        </div>
+
+        <div class="form-group">
+            <label for="Lead">Lead*: </label><br/>
+            <input id="Lead" type="number" class="form-control" placeholder="Is a Lead? type '1' for yes & '0' for no" formControlName="Lead" /><br/>
+            <small *ngIf="userForm.controls.Lead.errors?.required && userForm.controls.Lead.touched" style="color:red">*Lead is required</small>
+        </div>
+
+        <div class="form-group">
+            <label for="Admin">Admin*: </label><br/>
+            <input id="Admin" type="number" class="form-control" placeholder="Is an Admin? type '1' for yes & '0' for no" formControlName="Admin" /><br/>
+            <small *ngIf="userForm.controls.Admin.errors?.required && userForm.controls.Admin.touched" style="color:red">*Admin is required</small>
+        </div>
+
+        <div class="form-group">
+            <label for="Role">Role*: </label><br/>
+            <input id="Role" type="text" class="form-control" placeholder="Enter Role" formControlName="Role" /><br/>
+            <small *ngIf="userForm.controls.Role.errors?.required && userForm.controls.Role.touched" style="color:red">*Role is required</small>
+        </div>
+        
+
+
+
+
+        <button type="submit" class="btn btn-success" (click)='onSubmit()' [disabled]="!userForm.valid">Submit</button>
+    </form>
+</div>
