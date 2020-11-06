@@ -63,7 +63,7 @@ namespace BusinessLayer.Models
         //    UsersDataAccess usersDataAccess = new UsersDataAccess();
         //    UserDTO userDTO = new UserDTO();
 
-        //    userDTO.UserId = userVM.UserId;             //originally this line is not there
+        //    userDTO.UserId = userVM.UserId;             //originally not present
         //    userDTO.Name = userVM.Name;
         //    userDTO.Email = userVM.Email;
         //    userDTO.Password = userVM.Password;
@@ -72,9 +72,9 @@ namespace BusinessLayer.Models
         //    userDTO.Role = userVM.Role;
 
         //    int UserId = usersDataAccess.AddUserToDB(userDTO);          //YES originally present line
-        //    //usersDataAccess.AddUserToDB(userDTO);                       //I added
+        //    //usersDataAccess.AddUserToDB(userDTO);                       //I added later
         //    return UserId;                                            //YES originally present line
-        //    //return 1;                                                      //I added
+        //    //return 1;                                                      //I added later
         //}
     }
 }

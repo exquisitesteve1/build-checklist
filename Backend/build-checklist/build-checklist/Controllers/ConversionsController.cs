@@ -35,8 +35,8 @@ namespace build_checklist.Controllers
         //{
         //    UserBusiness userBusiness = new UserBusiness();
         //    int UserId = userBusiness.CreateNewUser(user);            //YES originally present
-        //    //int UserId = user.UserId;                                  //I added
-        //    //userBusiness.CreateNewUser(user);                           //I added
+        //    //int UserId = user.UserId;                                  //I added later
+        //    //userBusiness.CreateNewUser(user);                           //I added later
         //    //return id;                                        //originally commented
         //}
     }

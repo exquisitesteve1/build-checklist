@@ -66,12 +66,14 @@
             <label for="Lead">Lead*: </label><br/>
             <input id="Lead" type="number" class="form-control" placeholder={{user.Lead}} formControlName="Lead" /><br/>
             <small *ngIf="userForm.controls.Lead.errors?.required && userForm.controls.Lead.touched" style="color:red">*Lead is required</small>
+            <small>"Enter 1 for true & 0 for false"</small>
         </div>
 
         <div class="form-group">
             <label for="Admin">Admin*: </label><br/>
             <input id="Admin" type="number" class="form-control" placeholder={{user.Admin}} formControlName="Admin" /><br/>
             <small *ngIf="userForm.controls.Admin.errors?.required && userForm.controls.Admin.touched" style="color:red">*Admin is required</small>
+            <small>"Enter 1 for true & 0 for false"</small>
         </div>
 
         <div class="form-group">

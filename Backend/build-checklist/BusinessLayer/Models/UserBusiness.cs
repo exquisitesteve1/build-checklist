@@ -70,9 +70,9 @@ namespace BusinessLayer.Models
             userDTO.Role = userVM.Role;
 
             int UserId = usersDataAccess.AddUserToDB(userDTO);          //YES originally present line
-            //usersDataAccess.AddUserToDB(userDTO);                       //I added
+            //usersDataAccess.AddUserToDB(userDTO);                       //I added later
             return UserId;                                            //YES originally present line
-            //return 1;                                                      //I added
+            //return 1;                                                      //I added later
         }
     }
 }

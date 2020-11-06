@@ -49,7 +49,7 @@ namespace DataAccessLayer.Services
         {
             BuildChecklistContext dbContext = new BuildChecklistContext();
             Users users = new Users();
-            users.UserId = userDTO.UserId;          //was not there
+            users.UserId = userDTO.UserId;          //I added later
             users.Name = userDTO.Name;
             users.Email = userDTO.Email;
             users.Password = userDTO.Password;
