@@ -22,6 +22,19 @@ export class ChecklistItemComponent implements OnInit {
       'is-complete': this.checklist.completed
     }
 
+    return classes
+  }
+
+  onToggle(todo) {
+    // Toggle in UI
+    todo.completed = !todo.completed;
+    // Toggle on server
+    // this.todoService.toggleCompleted(todo).subscribe(todo => console.log(todo));
+  }
+
+  onDelete(todo) {
+    // this.deleteTodo.emit(todo);
+    console.log('delete');
   }
 
 

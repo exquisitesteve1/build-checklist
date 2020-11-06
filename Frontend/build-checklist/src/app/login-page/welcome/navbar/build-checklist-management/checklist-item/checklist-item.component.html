@@ -1,8 +1,8 @@
 <!-- <p>checklist-item works!</p> -->
 <div [ngClass]="setClasses()">
     <p>
-        <input type="checkbox" />
+        <input (change)="onToggle(checklist)" type="checkbox" />
         {{checklist.title}}
-        <button class = "del">x</button>
+        <button (click)="onDelete(checklist)" class = "del">x</button>
     </p>
 </div>
