@@ -59,8 +59,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\ConversionsBusiness.cs" />
     <Compile Include="Models\UserBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ConversionsVM.cs" />
     <Compile Include="ViewModels\UserVM.cs" />
   </ItemGroup>
   <ItemGroup>

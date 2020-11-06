@@ -1,8 +1,8 @@
 <h3>login-page</h3>
 <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
-    <input formControlName="name" placeholder="Your name">
-    <input formControlName="email" placeholder="Your email">
-    <input formControlName="password" placeholder="Password">
+    <!-- <input formControlName="name" placeholder="Your name"> -->
+    <input formControlName="email" placeholder="Your email"><br>
+    <input type="password" formControlName="password" placeholder="Password"><br>
   
     <button type="submit" [routerLink]="['/welcome']">Login</button>
   </form>

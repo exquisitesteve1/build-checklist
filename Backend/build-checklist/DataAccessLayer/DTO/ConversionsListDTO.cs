@@ -9,8 +9,8 @@ namespace DataAccessLayer.DTO
     public class ConversionsListDTO
     {
         public int ConversionId { get; set; }
-        public string ConversoinName { get; set; }
-        public string Description { get; set; }
+        public string ConversionName { get; set; }
+        public string ConversionDescription { get; set; }
         public int IdMember1 { get; set; }
         public int IdMember2 { get; set; }
         public int IdMember3 { get; set; }

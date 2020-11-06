@@ -1,1 +1,40 @@
-<p>dashboard works!</p>
+<!-- <p>dashboard works!</p> -->
+
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Conversion Id</th>
+                <th>Conversion Name</th>
+                <th>Conversion Description</th>
+                <th>Id Member1</th>
+                <th>Id Member2</th>
+                <th>Id Member3</th>
+                <th>Id Member4</th>
+                <th>Completed Status</th>
+                <th>Type</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let Conversion of tempConversion'>           
+                <td>{{Conversion.ConversionId}}</td>
+                <td>{{Conversion.ConversionName}}</td>
+                <td>{{Conversion.ConversionDescription}}</td>
+                <td>{{Conversion.IdMember1}}</td>
+                <td>{{Conversion.IdMember2}}</td>
+                <td>{{Conversion.IdMember3}}</td>
+                <td>{{Conversion.IdMember4}}</td>
+                <td>{{Conversion.Completed}}</td>
+                <td>{{Conversion.Type}}</td>
+                <td><button class='btn btn-primary' (click)='onEditClick(Conversion)'>Edit</button></td>
+                <td><button class='btn btn-danger' (click)='onDeleteClick(Conversion)'>Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <!-- <button class='btn btn-success' (click)='onAddClick()'>Add new Conversion</button> -->
+</div>
+
