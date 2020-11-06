@@ -14,6 +14,7 @@ import { BuildChecklistManagementComponent } from './login-page/welcome/navbar/b
 import { DashboardComponent } from './login-page/welcome/navbar/dashboard/dashboard.component';
 import { UserEditorComponent } from './login-page/welcome/navbar/user-administration/user-editor/user-editor.component';
 import { UserAddComponent } from './login-page/welcome/navbar/user-administration/user-add/user-add.component';
+import { ChecklistItemComponent } from './login-page/welcome/navbar/build-checklist-management/checklist-item/checklist-item.component';
 // import { ServicesComponent } from './login-page/welcome/services/services.component';
 
 
@@ -27,7 +28,8 @@ import { UserAddComponent } from './login-page/welcome/navbar/user-administratio
     BuildChecklistManagementComponent,
     DashboardComponent,
     UserEditorComponent,
-    UserAddComponent
+    UserAddComponent,
+    ChecklistItemComponent
     // HttpClientModule,
     // FormsModule
     // ServicesComponent
